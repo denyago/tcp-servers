@@ -22,13 +22,13 @@ Big plans:
 
 A [multi-project build](https://docs.gradle.org/current/userguide/multi_project_builds.html) of different TCP server implementations, a core of the game and a client:
 
- 1. [rapidoid](./rapidoid) - [doc](https://www.rapidoid.org/documentation.html#implementing-echo-protocol), [example](https://github.com/selvakn/todobackend-kotlin-rapidoid)
- 2. [korio](./corio) - [GitHub](https://github.com/korlibs/korio)
- 3. [vertx](./vertx) - [doc](https://vertx.io/docs/vertx-core/kotlin/#_writing_tcp_servers_and_clients), [example](https://github.com/fvasco/vertKtDemo)
- 4. [netty](./netty) - [article](https://medium.com/@ashertoqeer/netty-simple-tcp-server-51fa8537fad5)
+ 1. [core](./core) - server-side game logic
+ 2. [client](./client) - game client
+ 3. [rapidoid](./rapidoid) - [doc](https://www.rapidoid.org/documentation.html#implementing-echo-protocol), [example](https://github.com/selvakn/todobackend-kotlin-rapidoid)
+ 4. [vertx](./vertx) - [doc](https://vertx.io/docs/vertx-core/kotlin/#_writing_tcp_servers_and_clients), [example](https://github.com/fvasco/vertKtDemo)
  5. [ktor](./ktor) - [doc](https://ktor.io/servers/raw-sockets.html) 
- 6. [core](./core) - server-side game logic
- 7. [client](./client) - game client
+ 6. [netty](./netty) - [article](https://medium.com/@ashertoqeer/netty-simple-tcp-server-51fa8537fad5)
+ 7. [korio](./corio) - [GitHub](https://github.com/korlibs/korio)
  
  I've taken the inspiration from [this comparison](https://www.techempower.com/benchmarks/#section=data-r19&hw=cl&test=plaintext&s=1&l=x5nh4v-1r&a=2).
 
