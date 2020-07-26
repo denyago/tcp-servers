@@ -13,7 +13,7 @@ Disclaimer:
 Big plans:
 
 - try all server options
-- make client really concurrent (coroutines, [connection pools](https://blog.adamgamboa.dev/2020/01/06/creating-a-socket-client-pool-in-java/))
+- make client really concurrent (coroutines, [connection pools](https://blog.adamgamboa.dev/2020/01/06/creating-a-socket-client-pool-in-java/) or other [connection pools](https://www.freecodecamp.org/news/how-to-implement-an-object-pool-with-an-actor-in-kotlin-ed06d3ba6257/))
 - add a Redis instead of in-memory store
 - make sure everything in non-blocking and thread safe
 - run benchmarks

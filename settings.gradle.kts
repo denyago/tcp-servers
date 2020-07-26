@@ -1,1 +1,1 @@
-include("rapidoid", "core", "client")
+include("rapidoid", "core", "client", "vertx")
